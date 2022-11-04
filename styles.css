@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Playfair+Display:ital,wght@0,400;1,600&display=swap');
+
+*{
+    font-family: 'playfair display',sans-serif;
+
+}
+body{
+    margin: 0 auto;
+    background-image: url('../images/fond de page.jpg');
+    background-size: 100%; 
+    background-attachment: fixed;
+}
+/*tete de page*/
+header.header{
+    display: flex;
+    align-items: center;
+}
+section.top-page{
+    
+    height: 150vh;
+    padding: 25px;
+}
+
+/*page de bienvenue*/
+.landing-page{
+    padding:20px 50px;
+
+}
+.big-title {
+    color: black;
+    font-size: 80px;
+    font-family: 'Oswald', cursive;
+    font-weight: 100px;  
+}
+.scroll-down{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 160px;
+}
+
+/*menu de navigation*/
+nav.nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+    margin-left: 30px;
+
+}
+
+nav.nav li{
+    color: black;
+}
+
+/* services */
+.services{
+    display: flex;
+    font-size: 20px;
+    justify-content: space-evenly;
+    margin: 0px;
+    align-items: center;
+}
+
+.découverte{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.contact{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.service-details{
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+}
+
+/* profil items */
+.section-title{
+    font-size: 50px;
+    font-family: Oswald, cursive;
+    font-weight:100;
+}
+
+.section-title::before{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+.profil{
+    justify-content: center;
+    margin: 0;
+}
+.text {
+    display: none;
+}
+
+
+/* pied de page */
+
+footer{
+    position: absolute;
+    align-items: center;
+    width: 100%;
+    height: 20px;
+}
+.contenu-footer{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    background-color:rgb(74, 102, 204);
+    padding: 20px 0 80px;
+}
